@@ -1,7 +1,6 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  name_arr = []
-  data.
+  data.each_with_object({}) do |
 binding.pry
 end
